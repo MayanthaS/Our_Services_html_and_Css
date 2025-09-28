@@ -23,6 +23,36 @@ body{
     width: 100%;
     margin: 0 auto;
     position: relative;
-    top: 170px;
+    top: 100px;
 }
-/**
+/* Heading */
+.container > h1, .title{
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+}
+
+/* Heading Description */
+ h1, .container > p{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    transition: color 2s ease-in;
+}
+
+/* One Srevice */
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+}
+.service{
+    margin: 12px;
+    overflow: hidden;
+    padding: 40px 25px;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+    width: 200px;
+}
