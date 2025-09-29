@@ -23,8 +23,11 @@ body{
     width: 100%;
     margin: 0 auto;
     position: relative;
-    top: 100px;
-  
+
+}
+.headding{
+   
+    margin-top: 50px;
 }
 /* Heading */
 .container > h1, .title{
@@ -97,4 +100,9 @@ i:hover{
     margin-bottom: 1rem;
     text-transform: capitalize;
     transition: color 2s ease-in ;
+}
+.service > desc{
+    line-height: 1.55rem;
+    margin: 0;
+    transition: color 2s ease-out;
 }
