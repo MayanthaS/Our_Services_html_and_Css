@@ -29,7 +29,9 @@ body{
 .container > h1, .title{
     font-weight: 300 !important;
     letter-spacing: 1px;
+   
 }
+
 
 /* Heading Description */
  h1, .container > p{
@@ -55,4 +57,22 @@ body{
     text-align: center;
     transition: 0.5s;
     width: 200px;
+}
+.service:hover{
+    background-color: #d35400;
+    border-style: translateY(-3px);
+}
+.service::after{
+    content: '';
+    border-width: 20px;
+    border-style: solid;
+    border-color: #18194f #d35400;
+    position: absolute;
+    left: -40px;
+    bottom: -40px;
+    transition: left 0.5s ease-in-out,bottom 0.5s ease-in-out;
+}
+.service:hover::after{
+    left: 0;
+    bottom: 0;
 }
