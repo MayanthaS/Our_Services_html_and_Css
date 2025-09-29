@@ -24,12 +24,16 @@ body{
     margin: 0 auto;
     position: relative;
     top: 100px;
+  
 }
 /* Heading */
 .container > h1, .title{
     font-weight: 300 !important;
     letter-spacing: 1px;
-   
+       font-size: 2.5rem;   
+}
+h1{
+       transition: color 2s ease-in;
 }
 
 
@@ -50,9 +54,9 @@ body{
    
 }
 .service{
-    margin: 12px;
+    margin: 20px;
     overflow: hidden;
-    padding: 40px 25px;
+    padding: 50px 40px;
     position: relative;
     text-align: center;
     transition: 0.5s;
@@ -75,4 +79,22 @@ body{
 .service:hover::after{
     left: 0;
     bottom: 0;
+}
+ i{
+    display: block;
+    color: #e6d6ec;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    transition: color 0.5s ease-in-out;
+}
+i:hover{
+    color: #fff;
+}
+.service >.title{
+    font-weight: 900;
+    font-size: 0.9rem;
+    line-height: 1.55rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    transition: color 2s ease-in ;
 }
